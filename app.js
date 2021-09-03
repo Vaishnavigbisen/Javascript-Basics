@@ -1,17 +1,10 @@
-// Arithmetic operators
 
-const a = 2
-const b = 3
+// Assignment operators 
+let name = 'Vaishnavi'
 
-console.log(a + b)
+let a = 19
 
-console.log(a - b)
-
-console.log(a * b)
-
-console.log(a / b)
-
-console.log(a ** b)
-
-console.log(b % a)
-
+// a += name
+// a/=7
+// a*=
+//a**=
