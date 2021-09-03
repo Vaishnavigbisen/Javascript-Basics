@@ -1,18 +1,17 @@
-// DATA TYPES
-// Primitive data types
+// Arithmetic operators
 
-let age = 23.345678977;
-let name = 'vb'
-let isTrue = true
-let isfalse = false
+const a = 2
+const b = 3
 
-let brand
-console.log(typeof Name)
-console.log(brand)
+console.log(a + b)
 
-// Non primitive data types
+console.log(a - b)
 
-let arr = [1, 2, 3, 4, 5]
-arr.push("value")
-console.log(arr)
-console.log(typeof arr)
+console.log(a * b)
+
+console.log(a / b)
+
+console.log(a ** b)
+
+console.log(b % a)
+
