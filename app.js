@@ -1,10 +1,19 @@
+//Comparison operators
 
-// Assignment operators 
-let name = 'Vaishnavi'
+const a = 21
+const b = 7
+const c = 21
 
-let a = 19
+console.log('a > b', a == b)
+console.log('a < b', a < b)
+console, log('a == b', a == b)
+console.log('a >=c', a >= c)
 
-// a += name
-// a/=7
-// a*=
-//a**=
+console.log('-----------------------------')
+
+const e = 23
+const d = '23'
+
+console.log(e == d)
+console.log(e === d)
+
