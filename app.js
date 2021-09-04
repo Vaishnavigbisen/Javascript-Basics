@@ -1,15 +1,23 @@
-// const element = document.getElementById('selectme')
+const element = document.querySelector('#selectme')
+// element.innerHTML = "This is from JS"
 
-// const element = document.getElementsByClassName('heading')
+// element.style.color = "cyan"
+// element.style.fontSize = "40px"
+// element.style = 'display:none'
 
-// const element = document.getElementsByTagName('div')
+// console.log(element.classList)
+// element.classList.add('five')
+// console.log(element.classList)
+// element.classList.remove('one')
+// console.log(element.classList)
 
-// const element = document.querySelector('.heading')
-// Query selector returns just the FIRST MATCH
+// const body = document.querySelector('body')
 
-// const element = document.querySelectorAll('.heading')
-// QUERY SELECTOR ALL returns NODE LIST (list of nodes)- something like array
+// console.log(body.classList.toggle('dark'))
+// toggle internally implements if...else to check
+// whenever toggles add the class name them it returns true, if it finds the dark already present then it would not  add the dark so it will return false
 
-const element = document.querySelector('h3.heading')
 
-console.log(element)
+const value = element.classList.contains('three')
+
+console.log(value)
