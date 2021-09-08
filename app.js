@@ -61,4 +61,15 @@ let add = (x, y) => {
   };
   console.log(add(10, 20));
   
-
+  const counter = {
+    count: 1,
+    nikhil: function() {
+        return ++(this.count);
+    },
+    // key: this
+}
+console.log(counter)
+console.log(counter.nikhil());
+console.log(counter.nikhil());
+console.log(counter.nikhil());
+console.log(counter)
