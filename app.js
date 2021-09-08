@@ -35,14 +35,30 @@ console.log(fullname)
 console.log(dum)
 
 let person = {
-    firstname: "Nikhil",
-    lastname: "Agarwal",
+    firstname: "Vaishnavi",
+    lastname: "Bisen",
     age1: 20,
-    middlename: "DNA"
+    middlename: "xyz"
 }
 let {age1, firstname, lastname, middlename="" } = person;
 console.log(age1);
 console.log(firstname);
 console.log(lastname);
 console.log(middlename);
+
+// function add(x, y) {
+//     return x+y;
+// }
+// console.log(add(10, 20));
+
+// let add = function(x,y) {
+//     return x+y;
+// }
+// console.log(add(10,20))
+
+let add = (x, y) => {
+    return x + y;
+  };
+  console.log(add(10, 20));
+  
 
