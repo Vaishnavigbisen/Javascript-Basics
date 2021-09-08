@@ -1,15 +1,19 @@
-const balls = document.querySelectorAll('.ball')
-// const balls = document.getElementsByClassName('ball')
-const body = document.querySelector('body')
+console.log("MERGED CLASS 1 ES6")
+
+var arr = [1,2,3,4];
+console.log(arr[2]);
+
+var [one, two, three, four, five] = [1,2,3,4]; //ES6 Destructuring
+console.log(three);
+console.log(four);
+console.log(five);
 
 
-balls.forEach((ball, iteration) => {
-    const value = iteration * 50
-    ball.style = `transform:translateY(${value}px)`
-})
+function getscores() {
+    return [90,100];
+}
 
-let age = 19
-let Name = "Sakshi"
-
-console.log('Your age is ' + age)
-console.log(`Hi ${Name} Your age is ${age}`)
+let [x,y,z] = getscores();
+console.log(x);
+console.log(y);
+console.log(z);
