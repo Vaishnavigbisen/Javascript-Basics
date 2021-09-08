@@ -63,13 +63,13 @@ let add = (x, y) => {
   
   const counter = {
     count: 1,
-    nikhil: function() {
+    vaishnavi: function() {
         return ++(this.count);
     },
     // key: this
 }
 console.log(counter)
-console.log(counter.nikhil());
-console.log(counter.nikhil());
-console.log(counter.nikhil());
+console.log(counter.vaishnavi());
+console.log(counter.vaishnavi());
+console.log(counter.vaishnavi());
 console.log(counter)
