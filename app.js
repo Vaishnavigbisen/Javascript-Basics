@@ -144,3 +144,36 @@ attendConcert.then((data)=>console.log(data)).catch((error)=>console.log(error))
 console.log("HI, I WON'T WAIT FOR ANYONE")
 
 console.log("HI, I AM DYNING, I DON'T WANT TO WAIT")
+
+//-------------------------------------------------------------------------//
+//async and await
+
+
+
+// async function asyfuncname() {
+//   try {
+//     let result = await attendConcert;
+//     console.log(result)
+//   }
+//   catch(e) {
+//     console.log(e)
+//   }
+// }
+// asyfuncname()
+
+let asyfuncname = async() => {
+    try {
+      let result = await attendConcert;
+      console.log(result)
+    }
+    catch(e) {
+      console.log(e)
+    }
+  }
+  asyfuncname()
+  
+  console.log("HI, I WON'T WAIT FOR ANYONE")
+  
+  console.log("HI, I AM DYNING, I DON'T WANT TO WAIT")
+
+
